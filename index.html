@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Taste & Craviing — Premium Belgium Waffles, Fluffy Pancakes, Thick Shakes & Mocktails. Freshly baked every day." />
+  <title>Taste & Craviing — Premium Waffles, Pancakes & Shakes</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap"
+    rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-logo">Taste &amp; Craviing</a>
+      <nav class="desktop-nav">
+        <a href="index.html" class="nav-link" data-page="home">Home</a>
+        <a href="menu.html" class="nav-link" data-page="menu">Menu</a>
+        <a href="offers.html" class="nav-link" data-page="offers">Offers</a>
+        <a href="about.html" class="nav-link" data-page="about">About</a>
+        <a href="blog.html" class="nav-link" data-page="blog">Blog</a>
+        <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+      </nav>
+      <div class="desktop-actions">
+        <a href="#" class="btn btn-accent btn-pill" id="whatsapp-cta" data-whatsapp target="_blank" rel="noreferrer">
+          <i data-lucide="message-circle" class="icon"></i> Order Now
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <i data-lucide="menu" class="icon hamburger-icon-open"></i>
+        <i data-lucide="x" class="icon hamburger-icon-close" style="display:none;"></i>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <div class="mobile-nav-inner">
+        <a href="index.html" class="mobile-nav-link" data-page="home">Home</a>
+        <a href="menu.html" class="mobile-nav-link" data-page="menu">Menu</a>
+        <a href="offers.html" class="mobile-nav-link" data-page="offers">Offers</a>
+        <a href="about.html" class="mobile-nav-link" data-page="about">About</a>
+        <a href="blog.html" class="mobile-nav-link" data-page="blog">Blog</a>
+        <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
+        <div class="mobile-nav-cta">
+          <a href="#" class="btn btn-accent btn-full" data-whatsapp target="_blank" rel="noreferrer">
+            <i data-lucide="message-circle" class="icon"></i> Order on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="hero-image-wrap">
+        <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80"
+          alt="Delicious Waffles" class="hero-bg-img" />
+        <div class="hero-image-gradient"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="badge animate-on-scroll">FRESHLY BAKED EVERY DAY</span>
+          <h1 class="hero-title animate-on-scroll stagger-1">Sweeten Your Day With <em class="text-primary">Taste &amp;
+              Craviing</em></h1>
+          <p class="hero-sub animate-on-scroll stagger-2">Indulge in our premium Belgium waffles, fluffy pancakes, thick
+            shakes, and refreshing mocktails. Crafted with love, served with joy.</p>
+          <div class="hero-actions animate-on-scroll stagger-3">
+            <a href="menu.html" class="btn btn-primary btn-lg">Explore Menu</a>
+            <a href="offers.html" class="btn btn-outline btn-lg">View Offers</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Featured Menu Items -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Signature Delights</h2>
+          <p class="section-sub">Our most loved creations that keep customers coming back for more.</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card hover-lift animate-on-scroll stagger-1">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&q=80"
+                alt="Classic Belgium Waffle" />
+              <div class="card-image-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Classic Belgium Waffle</h3>
+              <p class="card-desc">Crispy on the outside, fluffy inside, topped with melted butter and maple syrup.</p>
+              <a href="menu.html" class="card-link">Order Now <i data-lucide="arrow-right" class="icon icon-sm"></i></a>
+            </div>
+          </div>
+          <div class="card hover-lift animate-on-scroll stagger-2">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&q=80"
+                alt="Nutella Overload Pancake" />
+              <div class="card-image-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Nutella Overload Pancake</h3>
+              <p class="card-desc">Stack of buttermilk pancakes layered with rich Nutella and fresh strawberries.</p>
+              <a href="menu.html" class="card-link">Order Now <i data-lucide="arrow-right" class="icon icon-sm"></i></a>
+            </div>
+          </div>
+          <div class="card hover-lift animate-on-scroll stagger-3">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80"
+                alt="Thick Chocolate Shake" />
+              <div class="card-image-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Thick Chocolate Shake</h3>
+              <p class="card-desc">Premium Belgian chocolate blended with homemade vanilla ice cream.</p>
+              <a href="menu.html" class="card-link">Order Now <i data-lucide="arrow-right" class="icon icon-sm"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About Teaser -->
+    <section class="section bg-beige">
+      <div class="container">
+        <div class="two-col-grid">
+          <div class="about-image-wrap animate-on-scroll">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80"
+              alt="Our Story" />
+            <div class="about-blob about-blob-bottom"></div>
+            <div class="about-blob about-blob-top"></div>
+          </div>
+          <div class="about-text animate-on-scroll stagger-1">
+            <h2 class="section-title text-left">Baked with Passion, Served with Love</h2>
+            <p class="body-text">Taste &amp; Craviing started as a humble cart with a simple mission: to serve the most
+              authentic, mouth-watering waffles in town. Over the years, we've perfected our secret batter recipe to
+              ensure every bite is a moment of pure bliss.</p>
+            <p class="body-text">Today, our menu has grown, but our commitment to quality ingredients and delightful
+              experiences remains unchanged.</p>
+            <a href="about.html" class="btn-outline-primary mt-4">Read Our Full Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Offers Highlight -->
+    <section class="section bg-accent text-white offers-banner">
+      <div class="dot-pattern"></div>
+      <div class="container text-center" style="position:relative;z-index:2;">
+        <div class="animate-on-scroll">
+          <span class="overline-text">Limited Time</span>
+          <h2 class="display-title">Waffle Wednesday!</h2>
+          <p class="display-sub">Buy any two classic waffles and get a free thick chocolate shake. Valid every Wednesday
+            from 2 PM to 6 PM.</p>
+          <a href="offers.html" class="btn btn-white btn-lg">Claim Offer</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Testimonials -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Happy Cravings</h2>
+          <p class="section-sub">Don't just take our word for it.</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="testimonial-card animate-on-scroll stagger-1">
+            <div class="stars">
+              <i data-lucide="star" class="icon star-icon"></i><i data-lucide="star" class="icon star-icon"></i><i
+                data-lucide="star" class="icon star-icon"></i><i data-lucide="star" class="icon star-icon"></i><i
+                data-lucide="star" class="icon star-icon"></i>
+            </div>
+            <p class="testimonial-text">"Hands down the best waffles I've ever had. The crunch is unbelievable!"</p>
+            <p class="testimonial-author">— Sarah M.</p>
+          </div>
+          <div class="testimonial-card animate-on-scroll stagger-2">
+            <div class="stars">
+              <i data-lucide="star" class="icon star-icon"></i><i data-lucide="star" class="icon star-icon"></i><i
+                data-lucide="star" class="icon star-icon"></i><i data-lucide="star" class="icon star-icon"></i><i
+                data-lucide="star" class="icon star-icon"></i>
+            </div>
+            <p class="testimonial-text">"Their Nutella pancakes are my weekend ritual. Highly recommend the cold coffee
+              too."</p>
+            <p class="testimonial-author">— James L.</p>
+          </div>
+          <div class="testimonial-card animate-on-scroll stagger-3">
+            <div class="stars">
+              <i data-lucide="star" class="icon star-icon"></i><i data-lucide="star" class="icon star-icon"></i><i
+                data-lucide="star" class="icon star-icon"></i><i data-lucide="star" class="icon star-icon"></i><i
+                data-lucide="star" class="icon star-icon"></i>
+            </div>
+            <p class="testimonial-text">"Incredible taste and lovely packaging. The presentation is as good as the
+              flavor."</p>
+            <p class="testimonial-author">— Priya K.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Visit Us -->
+    <section class="section bg-beige border-top">
+      <div class="container">
+        <div class="visit-card">
+          <div class="visit-info">
+            <h2 class="visit-title animate-on-scroll">Visit Us Today</h2>
+            <div class="visit-details animate-on-scroll stagger-1">
+              <div class="visit-detail-item">
+                <i data-lucide="map-pin" class="icon text-accent"></i>
+                <div>
+                  <h4>Our Location</h4>
+                  <p>123 Dessert Lane, Sweet District<br>Food City, FC 12345</p>
+                </div>
+              </div>
+              <div class="visit-detail-item">
+                <i data-lucide="clock" class="icon text-accent"></i>
+                <div>
+                  <h4>Opening Hours</h4>
+                  <p>Mon – Fri: 10:00 AM – 10:00 PM<br>Sat – Sun: 9:00 AM – 11:00 PM</p>
+                </div>
+              </div>
+            </div>
+            <div class="visit-social animate-on-scroll stagger-2">
+              <p>Follow us for daily cravings!</p>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer" class="btn-ghost-white">
+                <i data-lucide="instagram" class="icon"></i> @tasteandcraviing
+              </a>
+            </div>
+          </div>
+          <div class="visit-image">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80"
+              alt="Our Cafe" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h2 class="footer-logo">Taste &amp; Craviing</h2>
+          <p class="footer-brand-desc">Serving the most delicious waffles, pancakes, shakes, and more. Satisfy your
+            sweet tooth with every bite.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" class="social-icon"
+              aria-label="Instagram"><i data-lucide="instagram" class="icon"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="menu.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Menu</a></li>
+            <li><a href="offers.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Offers</a></li>
+            <li><a href="about.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>About</a></li>
+            <li><a href="blog.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Blog</a></li>
+            <li><a href="contact.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Visit Us Today</h3>
+          <ul class="footer-info">
+            <li><i data-lucide="map-pin" class="icon text-accent"></i><span>123 Dessert Lane, Sweet District<br>Food
+                City, FC 12345</span></li>
+            <li><i data-lucide="phone" class="icon text-accent"></i><span>+1 (234) 567-890</span></li>
+            <li><i data-lucide="mail" class="icon text-accent"></i><span>hello@tasteandcraviing.com</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Newsletter</h3>
+          <p class="footer-newsletter-desc">Subscribe to get special offers, free giveaways, and once-in-a-lifetime
+            deals.</p>
+          <form id="newsletter-form" novalidate>
+            <div class="footer-input-wrap">
+              <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required />
+              <span class="form-error" id="error-newsletter"></span>
+            </div>
+            <button type="submit" class="btn btn-accent btn-full" id="newsletter-submit"
+              style="margin-top:1rem;">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="footer-year"></span> Taste &amp; Craviing. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+  <script>const CURRENT_PAGE = 'home';</script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Updates & Stories — Stay in the loop with what's cooking at Taste & Craviing." />
+    <title>Updates & Stories — Taste & Craviing</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap"
+        rel="stylesheet" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar-inner">
+            <a href="index.html" class="navbar-logo">Taste &amp; Craviing</a>
+            <nav class="desktop-nav">
+                <a href="index.html" class="nav-link" data-page="home">Home</a>
+                <a href="menu.html" class="nav-link" data-page="menu">Menu</a>
+                <a href="offers.html" class="nav-link" data-page="offers">Offers</a>
+                <a href="about.html" class="nav-link" data-page="about">About</a>
+                <a href="blog.html" class="nav-link" data-page="blog">Blog</a>
+                <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+            </nav>
+            <div class="desktop-actions">
+                <a href="#" class="btn btn-accent btn-pill" data-whatsapp target="_blank" rel="noreferrer">
+                    <i data-lucide="message-circle" class="icon"></i> Order Now
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <i data-lucide="menu" class="icon hamburger-icon-open"></i>
+                <i data-lucide="x" class="icon hamburger-icon-close" style="display:none;"></i>
+            </button>
+        </div>
+        <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+            <div class="mobile-nav-inner">
+                <a href="index.html" class="mobile-nav-link" data-page="home">Home</a>
+                <a href="menu.html" class="mobile-nav-link" data-page="menu">Menu</a>
+                <a href="offers.html" class="mobile-nav-link" data-page="offers">Offers</a>
+                <a href="about.html" class="mobile-nav-link" data-page="about">About</a>
+                <a href="blog.html" class="mobile-nav-link" data-page="blog">Blog</a>
+                <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
+                <div class="mobile-nav-cta">
+                    <a href="#" class="btn btn-accent btn-full" data-whatsapp target="_blank" rel="noreferrer">
+                        <i data-lucide="message-circle" class="icon"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="section bg-beige">
+            <div class="container">
+
+                <div class="section-header animate-on-scroll">
+                    <h1 class="section-title">Updates &amp; Stories</h1>
+                    <p class="section-sub">Stay in the loop with what's cooking at Taste &amp; Craviing.</p>
+                </div>
+
+                <div class="grid grid-3" id="blog-grid">
+
+                    <!-- Post 1 -->
+                    <article class="blog-card animate-on-scroll stagger-1">
+                        <div class="blog-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80"
+                                alt="The Secret to the Perfect Belgium Waffle" />
+                            <span class="blog-category">Behind the Scenes</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i data-lucide="calendar" class="icon icon-xs"></i> Aug 15, 2023</span>
+                                <span><i data-lucide="user" class="icon icon-xs"></i> Chef Alex</span>
+                            </div>
+                            <h3 class="blog-title">The Secret to the Perfect Belgium Waffle</h3>
+                            <p class="blog-excerpt">Ever wondered what makes our waffles so incredibly crispy on the
+                                outside and fluffy on the inside? We're sharing a little peek into our kitchen...</p>
+                            <a href="#post-1" class="blog-read-more">Read More <i data-lucide="arrow-right"
+                                    class="icon icon-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="blog-card animate-on-scroll stagger-2">
+                        <div class="blog-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80"
+                                alt="New Summer Menu: Refreshing Mocktails" />
+                            <span class="blog-category">New Arrivals</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i data-lucide="calendar" class="icon icon-xs"></i> Jul 02, 2023</span>
+                                <span><i data-lucide="user" class="icon icon-xs"></i> Jordan Lee</span>
+                            </div>
+                            <h3 class="blog-title">New Summer Menu: Refreshing Mocktails</h3>
+                            <p class="blog-excerpt">Beat the heat with our brand new lineup of refreshing mocktails.
+                                From the classic Blue Lagoon to our signature Berry Blast.</p>
+                            <a href="#post-2" class="blog-read-more">Read More <i data-lucide="arrow-right"
+                                    class="icon icon-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="blog-card animate-on-scroll stagger-3">
+                        <div class="blog-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&q=80"
+                                alt="Why Nutella and Pancakes Are a Match Made in Heaven" />
+                            <span class="blog-category">Food Stories</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i data-lucide="calendar" class="icon icon-xs"></i> Jun 10, 2023</span>
+                                <span><i data-lucide="user" class="icon icon-xs"></i> Sam Gupta</span>
+                            </div>
+                            <h3 class="blog-title">Why Nutella and Pancakes Are a Match Made in Heaven</h3>
+                            <p class="blog-excerpt">The science and art behind combining warm, fluffy pancakes with
+                                rich, chocolatey Nutella. Warning: May cause intense cravings.</p>
+                            <a href="#post-3" class="blog-read-more">Read More <i data-lucide="arrow-right"
+                                    class="icon icon-sm"></i></a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="text-center mt-8">
+                    <button class="btn btn-outline-primary btn-lg" id="load-more-btn">Load More Stories</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h2 class="footer-logo">Taste &amp; Craviing</h2>
+                    <p class="footer-brand-desc">Serving the most delicious waffles, pancakes, shakes, and more. Satisfy
+                        your sweet tooth with every bite.</p>
+                    <div class="footer-social"><a href="https://instagram.com" target="_blank" rel="noreferrer"
+                            class="social-icon" aria-label="Instagram"><i data-lucide="instagram" class="icon"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="menu.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Menu</a></li>
+                        <li><a href="offers.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Offers</a></li>
+                        <li><a href="about.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>About</a></li>
+                        <li><a href="blog.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Blog</a></li>
+                        <li><a href="contact.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Visit Us Today</h3>
+                    <ul class="footer-info">
+                        <li><i data-lucide="map-pin" class="icon text-accent"></i><span>123 Dessert Lane, Sweet
+                                District<br>Food City, FC 12345</span></li>
+                        <li><i data-lucide="phone" class="icon text-accent"></i><span>+1 (234) 567-890</span></li>
+                        <li><i data-lucide="mail" class="icon text-accent"></i><span>hello@tasteandcraviing.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Newsletter</h3>
+                    <p class="footer-newsletter-desc">Subscribe to get special offers, free giveaways, and
+                        once-in-a-lifetime deals.</p>
+                    <form id="newsletter-form" novalidate>
+                        <div class="footer-input-wrap">
+                            <input type="email" id="newsletter-email" name="email" placeholder="Enter your email"
+                                required />
+                            <span class="form-error" id="error-newsletter"></span>
+                        </div>
+                        <button type="submit" class="btn btn-accent btn-full" id="newsletter-submit"
+                            style="margin-top:1rem;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="footer-year"></span> Taste &amp; Craviing. All rights reserved.</p>
+                <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+    <script>const CURRENT_PAGE = 'blog';</script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

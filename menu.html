@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Our Menu — Belgium Waffles, Fluffy Pancakes, Thick Shakes & Cold Coffee at Taste & Craviing." />
+    <title>Our Menu — Taste & Craviing</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap"
+        rel="stylesheet" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar-inner">
+            <a href="index.html" class="navbar-logo">Taste &amp; Craviing</a>
+            <nav class="desktop-nav">
+                <a href="index.html" class="nav-link" data-page="home">Home</a>
+                <a href="menu.html" class="nav-link" data-page="menu">Menu</a>
+                <a href="offers.html" class="nav-link" data-page="offers">Offers</a>
+                <a href="about.html" class="nav-link" data-page="about">About</a>
+                <a href="blog.html" class="nav-link" data-page="blog">Blog</a>
+                <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+            </nav>
+            <div class="desktop-actions">
+                <a href="#" class="btn btn-accent btn-pill" data-whatsapp target="_blank" rel="noreferrer">
+                    <i data-lucide="message-circle" class="icon"></i> Order Now
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <i data-lucide="menu" class="icon hamburger-icon-open"></i>
+                <i data-lucide="x" class="icon hamburger-icon-close" style="display:none;"></i>
+            </button>
+        </div>
+        <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+            <div class="mobile-nav-inner">
+                <a href="index.html" class="mobile-nav-link" data-page="home">Home</a>
+                <a href="menu.html" class="mobile-nav-link" data-page="menu">Menu</a>
+                <a href="offers.html" class="mobile-nav-link" data-page="offers">Offers</a>
+                <a href="about.html" class="mobile-nav-link" data-page="about">About</a>
+                <a href="blog.html" class="mobile-nav-link" data-page="blog">Blog</a>
+                <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
+                <div class="mobile-nav-cta">
+                    <a href="#" class="btn btn-accent btn-full" data-whatsapp target="_blank" rel="noreferrer">
+                        <i data-lucide="message-circle" class="icon"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- Header Banner -->
+        <div class="page-banner bg-primary">
+            <div class="dot-pattern"></div>
+            <h1 class="banner-title">Our Menu</h1>
+            <p class="banner-sub">Discover a world of sweet and savory delights.</p>
+        </div>
+
+        <div class="container" style="padding-top:3rem; padding-bottom:6rem;">
+            <div class="menu-layout">
+
+                <!-- Sidebar -->
+                <aside class="menu-sidebar">
+                    <div class="menu-sidebar-card">
+                        <h3 class="sidebar-title">Categories</h3>
+                        <ul class="sidebar-list">
+                            <li><a href="#menu-waffles" class="sidebar-link" data-scroll-to="menu-waffles"><i
+                                        data-lucide="utensils-crossed" class="icon icon-sm"></i>Belgium Waffles</a></li>
+                            <li><a href="#menu-pancakes" class="sidebar-link" data-scroll-to="menu-pancakes"><i
+                                        data-lucide="utensils-crossed" class="icon icon-sm"></i>Fluffy Pancakes</a></li>
+                            <li><a href="#menu-shakes" class="sidebar-link" data-scroll-to="menu-shakes"><i
+                                        data-lucide="ice-cream" class="icon icon-sm"></i>Thick Shakes</a></li>
+                            <li><a href="#menu-coffee" class="sidebar-link" data-scroll-to="menu-coffee"><i
+                                        data-lucide="coffee" class="icon icon-sm"></i>Cold Coffee &amp; Mocktails</a>
+                            </li>
+                            <li><a href="#menu-addons" class="sidebar-link" data-scroll-to="menu-addons"><i
+                                        data-lucide="plus-circle" class="icon icon-sm"></i>Add-on Options</a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <!-- Menu Content -->
+                <div class="menu-content">
+
+                    <!-- Belgium Waffles -->
+                    <section id="menu-waffles" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="category-header">
+                            <div class="category-icon"><i data-lucide="utensils-crossed" class="icon"></i></div>
+                            <h2 class="category-title">Belgium Waffles</h2>
+                        </div>
+                        <div class="grid grid-2">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Classic Honey &amp; Butter</h4><span class="price">$6.99</span>
+                                </div>
+                                <p class="menu-item-desc">Traditional Belgium waffle with maple syrup and whipped
+                                    butter.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Nutella Hazelnut</h4><span class="price">$8.99</span>
+                                </div>
+                                <p class="menu-item-desc">Loaded with rich Nutella and roasted crushed hazelnuts.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Strawberry Cream</h4><span class="price">$9.50</span>
+                                </div>
+                                <p class="menu-item-desc">Fresh strawberries, strawberry sauce, and whipped cream.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Dark Chocolate Overload</h4><span class="price">$10.00</span>
+                                </div>
+                                <p class="menu-item-desc">Dark chocolate batter, chocolate chips, and fudge sauce.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Fluffy Pancakes -->
+                    <section id="menu-pancakes" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="category-header">
+                            <div class="category-icon"><i data-lucide="utensils-crossed" class="icon"></i></div>
+                            <h2 class="category-title">Fluffy Pancakes</h2>
+                        </div>
+                        <div class="grid grid-2">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Classic Buttermilk</h4><span class="price">$7.50</span>
+                                </div>
+                                <p class="menu-item-desc">Stack of 3 fluffy pancakes with maple syrup.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Blueberry Bliss</h4><span class="price">$9.00</span>
+                                </div>
+                                <p class="menu-item-desc">Fresh blueberries folded into batter, topped with compote.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Banana Pecan</h4><span class="price">$9.50</span>
+                                </div>
+                                <p class="menu-item-desc">Caramelized bananas and candied pecans.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Thick Shakes -->
+                    <section id="menu-shakes" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="category-header">
+                            <div class="category-icon"><i data-lucide="ice-cream" class="icon"></i></div>
+                            <h2 class="category-title">Thick Shakes</h2>
+                        </div>
+                        <div class="grid grid-2">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Vanilla Bean</h4><span class="price">$5.99</span>
+                                </div>
+                                <p class="menu-item-desc">Made with real Madagascar vanilla beans.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Double Chocolate</h4><span class="price">$6.99</span>
+                                </div>
+                                <p class="menu-item-desc">Rich chocolate ice cream with fudge brownie pieces.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Oreo Crunch</h4><span class="price">$7.50</span>
+                                </div>
+                                <p class="menu-item-desc">Crushed Oreos blended with vanilla soft serve.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Cold Coffee & Mocktails -->
+                    <section id="menu-coffee" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="category-header">
+                            <div class="category-icon"><i data-lucide="coffee" class="icon"></i></div>
+                            <h2 class="category-title">Cold Coffee &amp; Mocktails</h2>
+                        </div>
+                        <div class="grid grid-2">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Classic Frappe</h4><span class="price">$5.50</span>
+                                </div>
+                                <p class="menu-item-desc">Blended iced coffee with milk and light syrup.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Caramel Macchiato</h4><span class="price">$6.50</span>
+                                </div>
+                                <p class="menu-item-desc">Espresso, milk, vanilla, and caramel drizzle.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Virgin Mojito</h4><span class="price">$5.00</span>
+                                </div>
+                                <p class="menu-item-desc">Mint, lime, and sparkling soda water.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Blue Lagoon</h4><span class="price">$5.50</span>
+                                </div>
+                                <p class="menu-item-desc">Blue curacao, lemon juice, and lemonade.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Add-ons -->
+                    <section id="menu-addons" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="addons-card">
+                            <h2 class="category-title">Make it Extra Special</h2>
+                            <div class="addons-grid">
+                                <div class="addon-item"><span class="addon-name">Extra Nutella</span><span
+                                        class="addon-price">+$1.50</span></div>
+                                <div class="addon-item"><span class="addon-name">Vanilla Ice Cream</span><span
+                                        class="addon-price">+$2.00</span></div>
+                                <div class="addon-item"><span class="addon-name">Fresh Strawberries</span><span
+                                        class="addon-price">+$1.50</span></div>
+                                <div class="addon-item"><span class="addon-name">Chocolate Chips</span><span
+                                        class="addon-price">+$1.00</span></div>
+                                <div class="addon-item"><span class="addon-name">Whipped Cream</span><span
+                                        class="addon-price">+$1.00</span></div>
+                                <div class="addon-item"><span class="addon-name">Caramel Drizzle</span><span
+                                        class="addon-price">+$1.00</span></div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h2 class="footer-logo">Taste &amp; Craviing</h2>
+                    <p class="footer-brand-desc">Serving the most delicious waffles, pancakes, shakes, and more. Satisfy
+                        your sweet tooth with every bite.</p>
+                    <div class="footer-social"><a href="https://instagram.com" target="_blank" rel="noreferrer"
+                            class="social-icon" aria-label="Instagram"><i data-lucide="instagram" class="icon"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="menu.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Menu</a></li>
+                        <li><a href="offers.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Offers</a></li>
+                        <li><a href="about.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>About</a></li>
+                        <li><a href="blog.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Blog</a></li>
+                        <li><a href="contact.html"><i data-lucide="arrow-right" class="icon icon-sm"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Visit Us Today</h3>
+                    <ul class="footer-info">
+                        <li><i data-lucide="map-pin" class="icon text-accent"></i><span>123 Dessert Lane, Sweet
+                                District<br>Food City, FC 12345</span></li>
+                        <li><i data-lucide="phone" class="icon text-accent"></i><span>+1 (234) 567-890</span></li>
+                        <li><i data-lucide="mail" class="icon text-accent"></i><span>hello@tasteandcraviing.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Newsletter</h3>
+                    <p class="footer-newsletter-desc">Subscribe to get special offers, free giveaways, and
+                        once-in-a-lifetime deals.</p>
+                    <form id="newsletter-form" novalidate>
+                        <div class="footer-input-wrap">
+                            <input type="email" id="newsletter-email" name="email" placeholder="Enter your email"
+                                required />
+                            <span class="form-error" id="error-newsletter"></span>
+                        </div>
+                        <button type="submit" class="btn btn-accent btn-full" id="newsletter-submit"
+                            style="margin-top:1rem;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="footer-year"></span> Taste &amp; Craviing. All rights reserved.</p>
+                <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+    <script>const CURRENT_PAGE = 'menu';</script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
