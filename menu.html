@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Our Menu — Belgium Waffles, Fluffy Pancakes, Thick Shakes & Cold Coffee at Taste & Craviing." />
-    <title>Our Menu — Taste & Craviing</title>
+        content="Our Menu — Mini Pancakes, Belgium Waffles with Ice Cream, Thick Shakes, Mocktails &amp; Coffee at Taste &amp; Craviing." />
+    <title>Our Menu — Taste &amp; Craviing</title>
     <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +22,7 @@
     <!-- NAVBAR -->
     <header class="navbar" id="navbar">
         <div class="container navbar-inner">
-            <a href="index.html" class="navbar-logo">Taste &amp; Craviing</a>
+            <a href="index.html" class="navbar-logo"><img src="assets/logo.jpg" alt="Taste &amp; Craviing" /></a>
             <nav class="desktop-nav">
                 <a href="index.html" class="nav-link" data-page="home">Home</a>
                 <a href="menu.html" class="nav-link" data-page="menu">Menu</a>
@@ -65,7 +65,7 @@
         <div class="page-banner bg-primary">
             <div class="dot-pattern"></div>
             <h1 class="banner-title">Our Menu</h1>
-            <p class="banner-sub">Discover a world of sweet and savory delights.</p>
+            <p class="banner-sub">Pancakes, Waffles, Shakes, Mocktails &amp; More.</p>
         </div>
 
         <div class="container" style="padding-top:3rem; padding-bottom:6rem;">
@@ -76,145 +76,236 @@
                     <div class="menu-sidebar-card">
                         <h3 class="sidebar-title">Categories</h3>
                         <ul class="sidebar-list">
-                            <li><a href="#menu-waffles" class="sidebar-link" data-scroll-to="menu-waffles"><i
-                                        data-lucide="utensils-crossed" class="icon icon-sm"></i>Belgium Waffles</a></li>
                             <li><a href="#menu-pancakes" class="sidebar-link" data-scroll-to="menu-pancakes"><i
-                                        data-lucide="utensils-crossed" class="icon icon-sm"></i>Fluffy Pancakes</a></li>
+                                        data-lucide="utensils-crossed" class="icon icon-sm"></i>Mini Pancakes</a></li>
+                            <li><a href="#menu-waffles" class="sidebar-link" data-scroll-to="menu-waffles"><i
+                                        data-lucide="utensils-crossed" class="icon icon-sm"></i>Waffles</a></li>
+                            <li><a href="#menu-specials" class="sidebar-link" data-scroll-to="menu-specials"><i
+                                        data-lucide="sparkles" class="icon icon-sm"></i>Special Arrivals</a></li>
                             <li><a href="#menu-shakes" class="sidebar-link" data-scroll-to="menu-shakes"><i
-                                        data-lucide="ice-cream" class="icon icon-sm"></i>Thick Shakes</a></li>
+                                        data-lucide="cup-soda" class="icon icon-sm"></i>Shakes</a></li>
+                            <li><a href="#menu-mocktails" class="sidebar-link" data-scroll-to="menu-mocktails"><i
+                                        data-lucide="glass-water" class="icon icon-sm"></i>Mocktails</a></li>
                             <li><a href="#menu-coffee" class="sidebar-link" data-scroll-to="menu-coffee"><i
-                                        data-lucide="coffee" class="icon icon-sm"></i>Cold Coffee &amp; Mocktails</a>
-                            </li>
+                                        data-lucide="coffee" class="icon icon-sm"></i>Coffee</a></li>
                             <li><a href="#menu-addons" class="sidebar-link" data-scroll-to="menu-addons"><i
-                                        data-lucide="plus-circle" class="icon icon-sm"></i>Add-on Options</a></li>
+                                        data-lucide="plus-circle" class="icon icon-sm"></i>Add-ons</a></li>
                         </ul>
+                    </div>
+                    <!-- Mon-Wed Offer Callout -->
+                    <div class="menu-sidebar-card"
+                        style="background:var(--color-primary);color:#fff;margin-top:1.5rem;">
+                        <h3 class="sidebar-title" style="color:#fff;">🎉 Mon–Wed Offers</h3>
+                        <p style="font-size:0.95rem;line-height:1.6;margin-bottom:0.75rem;">Buy 2 Waffles &amp; get
+                            <strong>1 Mocktail FREE</strong></p>
+                        <p style="font-size:0.95rem;line-height:1.6;margin-bottom:0.75rem;">Buy 2 Pancakes @ just
+                            <strong>₹199</strong></p>
+                        <a href="offers.html" class="btn btn-white btn-full"
+                            style="border-radius:var(--radius-xl);font-size:0.875rem;padding:0.6rem 1rem;">View All
+                            Offers</a>
                     </div>
                 </aside>
 
                 <!-- Menu Content -->
                 <div class="menu-content">
 
-                    <!-- Belgium Waffles -->
-                    <section id="menu-waffles" class="menu-category animate-on-scroll scroll-mt">
-                        <div class="category-header">
-                            <div class="category-icon"><i data-lucide="utensils-crossed" class="icon"></i></div>
-                            <h2 class="category-title">Belgium Waffles</h2>
-                        </div>
-                        <div class="grid grid-2">
-                            <div class="menu-item-card">
-                                <div class="menu-item-header">
-                                    <h4>Classic Honey &amp; Butter</h4><span class="price">$6.99</span>
-                                </div>
-                                <p class="menu-item-desc">Traditional Belgium waffle with maple syrup and whipped
-                                    butter.</p>
-                            </div>
-                            <div class="menu-item-card">
-                                <div class="menu-item-header">
-                                    <h4>Nutella Hazelnut</h4><span class="price">$8.99</span>
-                                </div>
-                                <p class="menu-item-desc">Loaded with rich Nutella and roasted crushed hazelnuts.</p>
-                            </div>
-                            <div class="menu-item-card">
-                                <div class="menu-item-header">
-                                    <h4>Strawberry Cream</h4><span class="price">$9.50</span>
-                                </div>
-                                <p class="menu-item-desc">Fresh strawberries, strawberry sauce, and whipped cream.</p>
-                            </div>
-                            <div class="menu-item-card">
-                                <div class="menu-item-header">
-                                    <h4>Dark Chocolate Overload</h4><span class="price">$10.00</span>
-                                </div>
-                                <p class="menu-item-desc">Dark chocolate batter, chocolate chips, and fudge sauce.</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Fluffy Pancakes -->
+                    <!-- Mini Pancakes -->
                     <section id="menu-pancakes" class="menu-category animate-on-scroll scroll-mt">
                         <div class="category-header">
                             <div class="category-icon"><i data-lucide="utensils-crossed" class="icon"></i></div>
-                            <h2 class="category-title">Fluffy Pancakes</h2>
+                            <h2 class="category-title">Mini Pancakes <span class="price"
+                                    style="font-size:1.1rem;">₹109</span></h2>
                         </div>
+                        <p style="color:var(--color-muted-fg);margin-bottom:1.5rem;font-size:0.95rem;">Pack of 8 pieces
+                            — choose your flavour:</p>
                         <div class="grid grid-2">
                             <div class="menu-item-card">
                                 <div class="menu-item-header">
-                                    <h4>Classic Buttermilk</h4><span class="price">$7.50</span>
+                                    <h4>Dark &amp; White Chocolate</h4><span class="price">₹109</span>
                                 </div>
-                                <p class="menu-item-desc">Stack of 3 fluffy pancakes with maple syrup.</p>
+                                <p class="menu-item-desc">Mini pancakes with a duo of dark and white chocolate drizzle.
+                                </p>
                             </div>
                             <div class="menu-item-card">
                                 <div class="menu-item-header">
-                                    <h4>Blueberry Bliss</h4><span class="price">$9.00</span>
+                                    <h4>Dark Chocolate</h4><span class="price">₹109</span>
                                 </div>
-                                <p class="menu-item-desc">Fresh blueberries folded into batter, topped with compote.</p>
+                                <p class="menu-item-desc">Rich dark chocolate topped mini pancakes — 8 bites of bliss.
+                                </p>
                             </div>
                             <div class="menu-item-card">
                                 <div class="menu-item-header">
-                                    <h4>Banana Pecan</h4><span class="price">$9.50</span>
+                                    <h4>White Chocolate</h4><span class="price">₹109</span>
                                 </div>
-                                <p class="menu-item-desc">Caramelized bananas and candied pecans.</p>
+                                <p class="menu-item-desc">Creamy white chocolate generously drizzled over fluffy mini
+                                    pancakes.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Nutella Chocolate</h4><span class="price">₹109</span>
+                                </div>
+                                <p class="menu-item-desc">Mini pancakes smothered in everyone's favourite Nutella
+                                    spread.</p>
                             </div>
                         </div>
                     </section>
 
-                    <!-- Thick Shakes -->
+                    <!-- Waffles with Ice Cream -->
+                    <section id="menu-waffles" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="category-header">
+                            <div class="category-icon"><i data-lucide="utensils-crossed" class="icon"></i></div>
+                            <h2 class="category-title">Waffles with Ice Cream</h2>
+                        </div>
+                        <div class="grid grid-2">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Dark &amp; White Waffle</h4><span class="price">₹120</span>
+                                </div>
+                                <p class="menu-item-desc">Belgium waffle with dark &amp; white chocolate sauce served
+                                    with ice cream.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Triple Chocolate Waffle</h4><span class="price">₹120</span>
+                                </div>
+                                <p class="menu-item-desc">Three layers of chocolate goodness — dark, milk, and white.
+                                </p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Nutella Waffle</h4><span class="price">₹120</span>
+                                </div>
+                                <p class="menu-item-desc">Crispy Belgium waffle topped with Nutella and a scoop of ice
+                                    cream.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Nutella &amp; White Waffle</h4><span class="price">₹120</span>
+                                </div>
+                                <p class="menu-item-desc">The perfect balance — Nutella meets white chocolate on a
+                                    golden waffle.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Oreo Waffle</h4><span class="price">₹139</span>
+                                </div>
+                                <p class="menu-item-desc">Crushed Oreos on a crispy waffle with ice cream — irresistibly
+                                    crunchy.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Special Arrivals -->
+                    <section id="menu-specials" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="category-header">
+                            <div class="category-icon"><i data-lucide="sparkles" class="icon"></i></div>
+                            <h2 class="category-title">Special Arrivals</h2>
+                        </div>
+                        <div class="grid grid-2">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>KitKat Waffle</h4><span class="price">₹149</span>
+                                </div>
+                                <p class="menu-item-desc">Our premium Belgium waffle loaded with KitKat chunks and
+                                    chocolate sauce.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Banana Pancakes</h4><span class="price">₹110</span>
+                                </div>
+                                <p class="menu-item-desc">Fluffy pancakes topped with caramelised banana slices and
+                                    honey.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Shakes -->
                     <section id="menu-shakes" class="menu-category animate-on-scroll scroll-mt">
                         <div class="category-header">
-                            <div class="category-icon"><i data-lucide="ice-cream" class="icon"></i></div>
-                            <h2 class="category-title">Thick Shakes</h2>
+                            <div class="category-icon"><i data-lucide="cup-soda" class="icon"></i></div>
+                            <h2 class="category-title">Shakes</h2>
                         </div>
                         <div class="grid grid-2">
                             <div class="menu-item-card">
                                 <div class="menu-item-header">
-                                    <h4>Vanilla Bean</h4><span class="price">$5.99</span>
+                                    <h4>KitKat Shake</h4><span class="price">₹80</span>
                                 </div>
-                                <p class="menu-item-desc">Made with real Madagascar vanilla beans.</p>
+                                <p class="menu-item-desc">Thick shake blended with KitKat pieces and creamy milk.</p>
                             </div>
                             <div class="menu-item-card">
                                 <div class="menu-item-header">
-                                    <h4>Double Chocolate</h4><span class="price">$6.99</span>
+                                    <h4>Oreo Shake</h4><span class="price">₹80</span>
                                 </div>
-                                <p class="menu-item-desc">Rich chocolate ice cream with fudge brownie pieces.</p>
+                                <p class="menu-item-desc">Crushed Oreos blended into a thick, creamy shake.</p>
                             </div>
                             <div class="menu-item-card">
                                 <div class="menu-item-header">
-                                    <h4>Oreo Crunch</h4><span class="price">$7.50</span>
+                                    <h4>Nutella Shake</h4><span class="price">₹110</span>
                                 </div>
-                                <p class="menu-item-desc">Crushed Oreos blended with vanilla soft serve.</p>
+                                <p class="menu-item-desc">Rich Nutella blended with milk for the ultimate thick shake.
+                                </p>
                             </div>
                         </div>
                     </section>
 
-                    <!-- Cold Coffee & Mocktails -->
+                    <!-- Mocktails -->
+                    <section id="menu-mocktails" class="menu-category animate-on-scroll scroll-mt">
+                        <div class="category-header">
+                            <div class="category-icon"><i data-lucide="glass-water" class="icon"></i></div>
+                            <h2 class="category-title">Mocktails <span class="price" style="font-size:1.1rem;">₹59
+                                    each</span></h2>
+                        </div>
+                        <p style="color:var(--color-muted-fg);margin-bottom:1.5rem;font-size:0.95rem;">🎉 Buy any 2
+                            Mocktails @ just ₹99!</p>
+                        <div class="grid grid-2">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Mint Mojito</h4><span class="price">₹59</span>
+                                </div>
+                                <p class="menu-item-desc">Fresh mint, lime, and sparkling soda — cool and refreshing.
+                                </p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Watermelon</h4><span class="price">₹59</span>
+                                </div>
+                                <p class="menu-item-desc">Fresh watermelon mocktail — sweet, light, and summery.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Green Apple</h4><span class="price">₹59</span>
+                                </div>
+                                <p class="menu-item-desc">Tangy green apple mocktail with a refreshing fizzy kick.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Peach</h4><span class="price">₹59</span>
+                                </div>
+                                <p class="menu-item-desc">Sweet peach mocktail — fruity and utterly refreshing.</p>
+                            </div>
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h4>Blue Berry</h4><span class="price">₹59</span>
+                                </div>
+                                <p class="menu-item-desc">Blueberry mocktail packed with antioxidant-rich berry flavour.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Coffee -->
                     <section id="menu-coffee" class="menu-category animate-on-scroll scroll-mt">
                         <div class="category-header">
                             <div class="category-icon"><i data-lucide="coffee" class="icon"></i></div>
-                            <h2 class="category-title">Cold Coffee &amp; Mocktails</h2>
+                            <h2 class="category-title">Coffee</h2>
                         </div>
                         <div class="grid grid-2">
                             <div class="menu-item-card">
                                 <div class="menu-item-header">
-                                    <h4>Classic Frappe</h4><span class="price">$5.50</span>
+                                    <h4>Hazelnut Coffee</h4><span class="price">₹80</span>
                                 </div>
-                                <p class="menu-item-desc">Blended iced coffee with milk and light syrup.</p>
-                            </div>
-                            <div class="menu-item-card">
-                                <div class="menu-item-header">
-                                    <h4>Caramel Macchiato</h4><span class="price">$6.50</span>
-                                </div>
-                                <p class="menu-item-desc">Espresso, milk, vanilla, and caramel drizzle.</p>
-                            </div>
-                            <div class="menu-item-card">
-                                <div class="menu-item-header">
-                                    <h4>Virgin Mojito</h4><span class="price">$5.00</span>
-                                </div>
-                                <p class="menu-item-desc">Mint, lime, and sparkling soda water.</p>
-                            </div>
-                            <div class="menu-item-card">
-                                <div class="menu-item-header">
-                                    <h4>Blue Lagoon</h4><span class="price">$5.50</span>
-                                </div>
-                                <p class="menu-item-desc">Blue curacao, lemon juice, and lemonade.</p>
+                                <p class="menu-item-desc">Rich coffee with a smooth hazelnut flavour — the perfect
+                                    pick-me-up.</p>
                             </div>
                         </div>
                     </section>
@@ -222,20 +313,12 @@
                     <!-- Add-ons -->
                     <section id="menu-addons" class="menu-category animate-on-scroll scroll-mt">
                         <div class="addons-card">
-                            <h2 class="category-title">Make it Extra Special</h2>
+                            <h2 class="category-title">Add-on Options</h2>
                             <div class="addons-grid">
-                                <div class="addon-item"><span class="addon-name">Extra Nutella</span><span
-                                        class="addon-price">+$1.50</span></div>
-                                <div class="addon-item"><span class="addon-name">Vanilla Ice Cream</span><span
-                                        class="addon-price">+$2.00</span></div>
-                                <div class="addon-item"><span class="addon-name">Fresh Strawberries</span><span
-                                        class="addon-price">+$1.50</span></div>
-                                <div class="addon-item"><span class="addon-name">Chocolate Chips</span><span
-                                        class="addon-price">+$1.00</span></div>
-                                <div class="addon-item"><span class="addon-name">Whipped Cream</span><span
-                                        class="addon-price">+$1.00</span></div>
-                                <div class="addon-item"><span class="addon-name">Caramel Drizzle</span><span
-                                        class="addon-price">+$1.00</span></div>
+                                <div class="addon-item"><span class="addon-name">For Chocolate</span><span
+                                        class="addon-price">Ask us</span></div>
+                                <div class="addon-item"><span class="addon-name">For Ice Cream</span><span
+                                        class="addon-price">+₹20</span></div>
                             </div>
                         </div>
                     </section>
@@ -251,11 +334,12 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h2 class="footer-logo">Taste &amp; Craviing</h2>
-                    <p class="footer-brand-desc">Serving the most delicious waffles, pancakes, shakes, and more. Satisfy
+                    <img src="assets/logo.jpg" alt="Taste &amp; Craviing" class="footer-logo-img" />
+                    <p class="footer-brand-desc">Serving the most delicious pancakes, waffles, shakes, and more. Satisfy
                         your sweet tooth with every bite.</p>
-                    <div class="footer-social"><a href="https://instagram.com" target="_blank" rel="noreferrer"
-                            class="social-icon" aria-label="Instagram"><i data-lucide="instagram" class="icon"></i></a>
+                    <div class="footer-social"><a href="https://www.instagram.com/taste_craviing" target="_blank"
+                            rel="noreferrer" class="social-icon" aria-label="Instagram"><i data-lucide="instagram"
+                                class="icon"></i></a>
                     </div>
                 </div>
                 <div class="footer-col">
@@ -270,11 +354,11 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3 class="footer-heading">Visit Us Today</h3>
+                    <h3 class="footer-heading">Contact Us</h3>
                     <ul class="footer-info">
-                        <li><i data-lucide="map-pin" class="icon text-accent"></i><span>123 Dessert Lane, Sweet
-                                District<br>Food City, FC 12345</span></li>
-                        <li><i data-lucide="phone" class="icon text-accent"></i><span>+1 (234) 567-890</span></li>
+                        <li><i data-lucide="phone" class="icon text-accent"></i><span>8800354992 / 9560027994</span>
+                        </li>
+                        <li><i data-lucide="instagram" class="icon text-accent"></i><span>@taste_craviing</span></li>
                         <li><i data-lucide="mail" class="icon text-accent"></i><span>hello@tasteandcraviing.com</span>
                         </li>
                     </ul>
