@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "wouter";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Tag, Clock, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
